@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -29,10 +30,19 @@
   position: fixed;
   top: 5%;
   left: 55%;
+  /* bottom: 155px; */
   bottom: 5%;
   margin-inline-start: 2rem;
 }
-
+.decorativeBar{
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-block-end: -64px;
+}
 .controlColumn {
   width: 50%;
 }
